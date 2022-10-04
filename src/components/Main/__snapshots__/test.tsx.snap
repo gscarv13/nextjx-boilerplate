@@ -45,7 +45,7 @@ exports[`<Main /> should render the heading 1`] = `
   <img
     alt="Atom shape that represents the React library"
     class="c1"
-    src="/logo.svg"
+    src="/img/logo.svg"
   />
   <h1
     class="c2"

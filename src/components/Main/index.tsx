@@ -6,7 +6,7 @@ const Main = ({
 }) => (
   <S.Wrapper>
     <S.Logo
-      src="/logo.svg"
+      src="/img/logo.svg"
       alt="Atom shape that represents the React library"
     />
     <S.Title>{title}</S.Title>
