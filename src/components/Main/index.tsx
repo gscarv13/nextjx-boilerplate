@@ -1,15 +1,16 @@
 import * as S from './Main.styled'
 
-const Main = () => (
+const Main = ({
+  title = 'Next + TS',
+  description = 'TypeScript, ReactJS, NextJS and Styled Components'
+}) => (
   <S.Wrapper>
     <S.Logo
       src="/logo.svg"
       alt="Atom shape that represents the React library"
     />
-    <S.Title>Next + TS</S.Title>
-    <S.Description>
-      TypeScript, ReactJS, NextJS and Styled Components
-    </S.Description>
+    <S.Title>{title}</S.Title>
+    <S.Description>{description}</S.Description>
   </S.Wrapper>
 )
 
